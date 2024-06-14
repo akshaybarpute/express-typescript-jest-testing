@@ -19,7 +19,7 @@ npm start
 ```
 To create production build. Run
 ```bash
-npm build
+npm run build
 ```
 
 ## License
