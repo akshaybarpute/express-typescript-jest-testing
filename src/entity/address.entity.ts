@@ -37,7 +37,7 @@ export class Address {
   })
   country: string;
 
-  //   @ManyToOne(() => User, (user) => user.id)
+  // @ManyToOne(() => User, (user) => user.addresses)
   @ManyToOne(() => User, {
     eager: false,
     nullable: false,

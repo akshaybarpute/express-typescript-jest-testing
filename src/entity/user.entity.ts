@@ -21,7 +21,7 @@ export class User {
   })
   password: string;
 
-  @OneToMany(() => Address, (address) => address.id)
+  @OneToMany(() => Address, (address) => address.user)
   addresses: Address[];
 
   constructor(name: string, email: string, password: string);
